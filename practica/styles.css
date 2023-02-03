@@ -1,0 +1,67 @@
+body{
+    background-image: url(swamp-7537993.jpg);
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+}
+.header{
+    background-color: transparent;
+}
+main{
+    display: flex;
+    margin-top: 50px;
+}
+.titulo2{
+    margin-left: 100px;
+}
+.formulario{
+    margin-left: 300px;
+    background-color: rgb(0, 0, 0, 0.3);
+    color: rgb(40, 119, 119);
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px rgb(18,32,14) ;
+    border:solid 1px  rgb(18,32,14) ;
+}
+.cuadro {
+    padding:8px 45px 8px 45px;
+    background-color: rgb(0, 0, 0, 0.3);
+    color: lightcyan;
+    box-shadow: rgb(18,32,14) 1px 2px 1px 1px inset,
+    rgb(18,32,14) 2px 3px  1px 2px;
+    border-radius: 4px;
+    border: solid 2px rgb(18,32,14);
+    
+}
+.olvido{
+    margin:15px 0px 10px 0px;
+}
+a{
+    color:rgb(19, 102, 102);
+    text-decoration: none;
+}
+.boton{
+    font-size: 23px;
+    padding: 5px 40px 5px 40px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid 1px rgb(18,32,14);
+    box-shadow:  rgb(18,32,14) 1px 2px 1px 1px inset,
+    rgb(18,32,14) 2px 3px  1px 2px;
+    background-color: rgb(0, 0, 0, 0.3) ;
+    color:rgb(36, 58, 36);
+    
+}
+.boton:hover{
+    background-color:rgb(32, 77, 77) ;
+    cursor: pointer;
+}
+.form{
+    margin-left: 10px;
+}
